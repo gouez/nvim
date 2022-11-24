@@ -49,5 +49,8 @@ ui["akinsho/nvim-bufferline.lua"] = {
 
 ui["lukas-reineke/indent-blankline.nvim"] = { config = "require('modules.ui.blankline')" }
 ui["stevearc/dressing.nvim"] = { config = "require('modules.ui.dressing')" }
+ui["rcarriga/nvim-notify"] = {
+  config = conf.notify,
+}
 
 return ui

@@ -44,7 +44,7 @@ return {
     { ':LspLog', description = 'Lsp Log' },
     { ':LspRestart', description = 'Lsp Restart' },
     -- telescope
-    { ':Telescope keymaps', description = 'Telescope keymaps' },
+    { ':Telescope keymaps', description = 'Show keymaps' },
     { ':Telescope vim_options', description = 'Telescope vim_options' },
     { ':Telescope lsp_dynamic_workspace_symbols', description = 'lsp_dynamic_workspace_symbol' },
     { ':Telescope lsp_document_symbols', description = 'lsp_document_symbols' },
@@ -56,6 +56,14 @@ return {
     { ':lua lua require("spectre").open_file_search()', description = 'search in current file' },
     -- Code Runner
     { ':RunFile', description = 'Run the current file' },
+    --- terminal
+    { ':ToggleTerm direction=horizontal', description = 'Open terminal horizontal' },
+    { ':ToggleTerm direction=float', description = 'Open terminal float' },
+    -- comments
+    { ':TodoQuickFix', description = ':TodoQuickFix' },
+    { ':TodoLocList', description = 'TodoLocList' },
+    { ':TodoTelescope', description = 'TodoTelescope' },
+
   },
   functions = {
 

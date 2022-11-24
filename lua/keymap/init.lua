@@ -52,7 +52,8 @@ nmap({
       api.nvim_feedkeys(esc_key, 'n', false)
     end,
   },
-  { '<Leader>2', cmd('SymbolsOutline') },
+  { '<Leader>3', cmd('SymbolsOutline') },
+  { '<Leader>2', cmd('Neotree buffers position=float') },
   { '<Leader>ff', cmd('Telescope find_files find_command=rg,--ignore,--hidden,--files') },
   { '<Leader>fg', cmd('Telescope git_files') },
   { '<Leader>fw', cmd('Telescope grep_string') },

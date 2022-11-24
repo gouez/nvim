@@ -24,6 +24,9 @@ nmap({
   { '<A-[>', cmd('vertical resize -5') },
   { '<A-]>', cmd('vertical resize +5') },
   { '<C-q>', cmd('wqa') },
+  { '<Leader>q', cmd('q!') },
+  { '<Leader>-', cmd('split') },
+  { '<Leader>|', cmd('vsplit') },
 })
 
 -- insertmode remap
