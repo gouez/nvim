@@ -26,5 +26,6 @@ vim.cmd('highlight NormalFloat         guifg=none      guibg=none  gui=none')
 local lazy_timer = 20
 
 vim.defer_fn(function()
+  -- loader("plenary.nvim")
   -- loader("hydra.nvim")
 end, lazy_timer + 80)

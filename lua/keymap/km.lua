@@ -15,8 +15,10 @@ return {
     { 'gd', ':lua require("navigator.definition").definition()<CR>', description = 'definition' },
     { 'gp', ':lua require("navigator.definition").definition_preview()<CR>', description = 'definition preview' },
     { '<Space>ca',
-      n = { ':lua require("navigator.codeAction").code_action()<CR>', description = 'code action' },
-      v = { ':lua require("navigator.codeAction").range_code_action()<CR>', description = 'range code action' }
+      {
+        n = { ':lua require("navigator.codeAction").code_action()<CR>', description = 'code action' },
+        v = { ':lua require("navigator.codeAction").range_code_action()<CR>', description = 'range code action' }
+      }
     },
     { '<Space>rn', ':lua require("navigator.rename").rename()<CR>', description = 'rename' },
     { '<Leader>gi', ':lua im.lsp.buf.incoming_calls()<CR>', description = 'incoming calls' },
@@ -52,7 +54,8 @@ return {
     -- search/replace
     { ':lua require("spectre").open_visual({select_word=true})', description = 'search current word' },
     { ':lua lua require("spectre").open_file_search()', description = 'search in current file' },
-
+    -- Code Runner
+    { ':RunFile', description = 'Run the current file' },
   },
   functions = {
 

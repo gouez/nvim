@@ -1,6 +1,7 @@
 local tools = {}
 local conf = require('modules.tools.config')
 
+tools["nvim-lua/plenary.nvim"] = {}
 
 tools["mrjones2014/legendary.nvim"] = {
   requires = "dressing.nvim",

@@ -29,4 +29,11 @@ lang["mfussenegger/nvim-dap"] = { config = "require('modules.lang.dap')" }
 lang["rcarriga/nvim-dap-ui"] = {}
 lang["theHamsta/nvim-dap-virtual-text"] = {}
 lang["cshuaimin/ssr.nvim"] = { module = "ssr", config = conf.ssr }
+lang["mfussenegger/nvim-dap-python"] = { ft = { "python" } }
+lang["CRAG666/code_runner.nvim"] = {
+  opt = true,
+  cmd = { "RunCode", "RunFile" },
+  requires = 'nvim-lua/plenary.nvim',
+  config = "require('modules.lang.code-runner')"
+}
 return lang

@@ -23,6 +23,7 @@ nmap({
   -- resize window
   { '<A-[>', cmd('vertical resize -5') },
   { '<A-]>', cmd('vertical resize +5') },
+  { '<C-q>', cmd('wqa') },
 })
 
 -- insertmode remap
