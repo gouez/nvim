@@ -1,12 +1,8 @@
 return {
   keymaps = {
-    -- map keys to a command
     { '<leader>ff', ':Telescope find_files<CR>', description = 'Find files', opts = { silent = true } },
-    -- map keys to a function
     { '<leader>h', function() print('hello world!') end, description = 'Say hello' },
-    -- keymaps have opts.silent = true by default, but you can override it
     { '<leader>s', ':SomeCommand<CR>', description = 'Non-silent keymap', opts = { silent = false } },
-    -- create keymaps with different implementations per-mode
     {
       '<leader>c',
       { n = ':LinewiseCommentToggle<CR>', x = ":'<,'>BlockwiseCommentToggle<CR>" },
@@ -53,6 +49,9 @@ return {
     { ':Telescope commands', description = 'Lists available plugin/user commands' },
     { ':Telescope help_tags', description = 'help_tags' },
     { ':Telescope colorscheme', description = 'colorscheme' },
+    -- search/replace
+    { ':lua require("spectre").open_visual({select_word=true})', description = 'search current word' },
+    { ':lua lua require("spectre").open_file_search()', description = 'search in current file' },
 
   },
   functions = {

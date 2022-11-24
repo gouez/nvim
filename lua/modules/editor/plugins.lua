@@ -18,5 +18,6 @@ editor["NvChad/nvim-colorizer.lua"] = {
   end
 }
 editor["numToStr/Comment.nvim"] = { event = BufRead, config = "require('Comment').setup()" }
+editor["windwp/nvim-spectre"] = { event = BufRead, config = "require('spectre')" }
 
 return editor
