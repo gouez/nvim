@@ -23,7 +23,7 @@ return {
     { '<Space>rn', ':lua require("navigator.rename").rename()<CR>', description = 'rename' },
     { '<Leader>gi', ':lua im.lsp.buf.incoming_calls()<CR>', description = 'incoming calls' },
     { '<Leader>go', ':lua vim.lsp.buf.outgoing_calls()<CR>', description = 'outgoing calls' },
-    { 'gi', ':lua vim.lsp.buf.implementation<CR>', description = 'implementation' },
+    { 'gi', ':lua vim.lsp.buf.implementation()<CR>', description = 'implementation' },
     { 'gL', ':lua require("navigator.diagnostics").show_diagnostics()<CR>', description = 'show diagnostics' },
     { 'gG', ':lua require("navigator.diagnostics").show_buf_diagnostics()<CR>', description = 'show buf diagnostics' },
     { '<leader>dt', ':lua require("navigator.diagnostics").toggle_diagnostics()<CR>', description = 'toggle diagnostics' },

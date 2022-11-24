@@ -15,7 +15,6 @@ function global:load_variables()
     home = home .. (os.getenv("HOMEPATH") or "\\")
 
   end
-
   self.cache_dir = home .. path_sep .. ".cache" .. path_sep .. "nvim" .. path_sep
   -- self.modules_dir = self.vim_path .. path_sep .. 'modules'
   self.modules_dir = self.vim_path .. path_sep .. "lua" .. path_sep .. "packer_compiled.lua"

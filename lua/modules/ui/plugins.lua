@@ -53,4 +53,14 @@ ui["rcarriga/nvim-notify"] = {
   config = conf.notify,
 }
 
+ui["gorbit99/codewindow.nvim"] = {
+  cmd = { "Minimap" },
+  config = function()
+    local codewindow = require("codewindow")
+    codewindow.setup()
+    codewindow.apply_default_keybinds()
+    vim.cmd('command! -nargs=0 Minimap :lua require("codewindow").toggle_minimap()')
+  end,
+}
+
 return ui

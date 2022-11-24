@@ -107,16 +107,16 @@ tools["phaazon/hop.nvim"] = {
   end
 }
 tools["jghauser/mkdir.nvim"] = {}
-tools["gelguy/wilder.nvim"] = {
-  requires = {
-    { "romgrk/fzy-lua-native" }
-  },
-  opt = true,
-  run = function()
-    vim.cmd([[packadd wilder.nvim]])
-    vim.cmd([[silent UpdateRemotePlugins]])
-  end,
-  event = { "CmdwinEnter", "CmdlineEnter" },
-  config = "require('modules.tools.wilder')"
-}
+-- tools["gelguy/wilder.nvim"] = {
+--   requires = {
+--     { "romgrk/fzy-lua-native" }
+--   },
+--   opt = true,
+--   run = function()
+--     vim.cmd([[packadd wilder.nvim]])
+--     vim.cmd([[silent UpdateRemotePlugins]])
+--   end,
+--   event = { "CmdwinEnter", "CmdlineEnter" },
+--   config = "require('modules.tools.wilder')"
+-- }
 return tools
