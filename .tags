@@ -1,0 +1,176 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+"getcwd", {}) .. "/" .. vim.fn.expand	lua/modules/ui/windline.lua	385;"	f
+${1:function_name}	snippets/lua.json	81;"	f
+${1:function_name}	snippets/lua.json	87;"	f
+M.buffers	lua/utils/telescope.lua	222;"	f
+M.command_history	lua/utils/telescope.lua	239;"	f
+M.files	lua/utils/telescope.lua	213;"	f
+M.find_dots 	lua/utils/telescope.lua	33;"	f
+M.folder_search	lua/utils/telescope.lua	188;"	f
+M.get_importable_subfiles 	lua/utils/func.lua	7;"	f
+M.git_files 	lua/utils/telescope.lua	61;"	f
+M.grep_string_cursor 	lua/utils/telescope.lua	527;"	f
+M.grep_string_cursor_raw 	lua/utils/telescope.lua	541;"	f
+M.grep_string_visual 	lua/utils/telescope.lua	521;"	f
+M.grep_string_visual_raw 	lua/utils/telescope.lua	534;"	f
+M.installed_plugins	lua/utils/telescope.lua	174;"	f
+M.join 	lua/utils/func.lua	3;"	f
+M.jump 	lua/utils/telescope.lua	170;"	f
+M.load_dotfiles	lua/utils/telescope.lua	243;"	f
+M.on_attach 	lua/modules/completion/handlers.lua	68;"	f
+M.project_search	lua/utils/telescope.lua	180;"	f
+M.setup 	lua/modules/completion/handlers.lua	6;"	f
+M.setup 	lua/utils/telescope.lua	356;"	f
+M.setup  	lua/modules/completion/mason.lua	3;"	f
+M.theme 	lua/utils/telescope.lua	192;"	f
+Packer:init_ensure_plugins	lua/core/pack.lua	74;"	f
+Packer:load_packer	lua/core/pack.lua	39;"	f
+Packer:load_plugins	lua/core/pack.lua	14;"	f
+["<C-n>"] 	lua/utils/telescope.lua	429;"	f
+["<C-n>"] 	lua/utils/telescope.lua	458;"	f
+["<C-p>"] 	lua/utils/telescope.lua	440;"	f
+["<C-p>"] 	lua/utils/telescope.lua	464;"	f
+["<S-Tab>"] 	lua/modules/completion/nvim-cmp.lua	42;"	f
+["<Tab>"] 	lua/modules/completion/nvim-cmp.lua	28;"	f
+["af"] 	lua/modules/lang/treesitter.lua	81;"	f
+["if"] 	lua/modules/lang/treesitter.lua	82;"	f
+['af'] 	lua/modules/lang/nvim-treesitter.lua	13;"	f
+['if'] 	lua/modules/lang/nvim-treesitter.lua	14;"	f
+_G.smart_shift_tab 	lua/keymap/config.lua	28;"	f
+_G.smart_tab 	lua/keymap/config.lua	9;"	f
+__index 	lua/core/pack.lua	92;"	f
+_fzf_toggle	lua/modules/tools/floaterm.lua	79;"	f
+_gd_toggle	lua/modules/tools/floaterm.lua	49;"	f
+_jest_test	lua/modules/tools/floaterm.lua	66;"	f
+_lazydocker_toggle	lua/modules/tools/floaterm.lua	45;"	f
+_lazygit_toggle	lua/modules/tools/floaterm.lua	41;"	f
+`{noremap 	README.md	192;"	f
+builtin.dotfiles 	lua/utils/telescope.lua	261;"	f
+callback 	lua/internal/event.lua	20;"	f
+callback 	lua/internal/event.lua	42;"	f
+callback 	lua/internal/event.lua	54;"	f
+callback 	lua/internal/event.lua	62;"	f
+callback 	lua/internal/event.lua	72;"	f
+callback 	lua/internal/event.lua	82;"	f
+callback 	lua/internal/winbar.lua	60;"	f
+callback 	lua/modules/lang/treesitter.lua	222;"	f
+colors_name 	lua/modules/ui/windline.lua	605;"	f
+config 	lua/core/pack.lua	62;"	f
+config 	lua/modules/completion/plugins.lua	33;"	f
+config 	lua/modules/completion/plugins.lua	44;"	f
+config 	lua/modules/editor/plugins.lua	17;"	f
+config 	lua/modules/editor/plugins.lua	23;"	f
+config 	lua/modules/lang/null-ls/init.lua	2;"	f
+config 	lua/modules/lang/plugins.lua	26;"	f
+config 	lua/modules/tools/plugins.lua	72;"	f
+config 	lua/modules/ui/plugins.lua	19;"	f
+config.lspsaga	lua/modules/completion/config.lua	12;"	f
+config.mason	lua/modules/completion/config.lua	6;"	f
+config.nightfox	lua/modules/ui/config.lua	4;"	f
+config_winbar	lua/internal/winbar.lua	38;"	f
+cursor_moved	plugin/cursorword.lua	54;"	f
+custom_actions.change_directory	lua/utils/telescope.lua	313;"	f
+custom_actions.fzf_multi_select	lua/utils/telescope.lua	323;"	f
+custom_actions.send_to_qflist	lua/utils/telescope.lua	300;"	f
+dap.listeners.after.event_initialized["dapui_config"] 	lua/modules/lang/dap/init.lua	67;"	f
+dap.listeners.before.event_exited["dapui_config"] 	lua/modules/lang/dap/init.lua	75;"	f
+dap.listeners.before.event_terminated["dapui_config"] 	lua/modules/lang/dap/init.lua	71;"	f
+disable_cursorword	plugin/cursorword.lua	9;"	f
+exist	lua/modules/lang/null-ls/init.lua	36;"	f
+expand 	lua/modules/completion/nvim-cmp.lua	11;"	f
+filesize_hook 	lua/utils/telescope.lua	368;"	f
+format 	lua/modules/completion/nvim-cmp.lua	56;"	f
+getEntryFromEnd	lua/modules/ui/windline.lua	174;"	f
+get_file_name	lua/internal/winbar.lua	4;"	f
+get_offset	lua/modules/ui/windline.lua	310;"	f
+global:load_variables	lua/core/global.lua	7;"	f
+goto_next_end 	lua/modules/lang/treesitter.lua	73;"	f
+goto_next_start 	lua/modules/lang/treesitter.lua	72;"	f
+goto_previous_end 	lua/modules/lang/treesitter.lua	75;"	f
+goto_previous_start 	lua/modules/lang/treesitter.lua	74;"	f
+helper.get_cache_path	lua/core/helper.lua	20;"	f
+helper.get_config_path	lua/core/helper.lua	4;"	f
+helper.get_data_path	lua/core/helper.lua	12;"	f
+highlight_cursorword	plugin/cursorword.lua	3;"	f
+keymap.cmd	lua/core/keymap.lua	63;"	f
+keymap.cu	lua/core/keymap.lua	68;"	f
+keymap.expr	lua/core/keymap.lua	31;"	f
+keymap.new_opts	lua/core/keymap.lua	49;"	f
+keymap.noremap	lua/core/keymap.lua	25;"	f
+keymap.nowait	lua/core/keymap.lua	43;"	f
+keymap.remap	lua/core/keymap.lua	37;"	f
+keymap.silent	lua/core/keymap.lua	19;"	f
+layout.custom 	lua/utils/telescope.lua	124;"	f
+load_colorscheme	lua/core/lazy.lua	18;"	f
+local TrimmedDirectory 	lua/modules/ui/windline.lua	182;"	f
+local buffer_not_empty 	lua/modules/ui/windline.lua	217;"	f
+local buffers 	lua/utils/telescope.lua	224;"	f
+local checkwidth 	lua/modules/ui/windline.lua	246;"	f
+local createdir 	lua/core/init.lua	5;"	f
+local current_function 	lua/modules/ui/windline.lua	75;"	f
+local current_signature 	lua/modules/ui/windline.lua	103;"	f
+local get_plugins_list 	lua/core/pack.lua	18;"	f
+local has_words_before 	lua/keymap/config.lua	1;"	f
+local has_words_before 	lua/modules/completion/nvim-cmp.lua	4;"	f
+local height_dropdown_nopreview 	lua/utils/telescope.lua	295;"	f
+local horizontal_preview_width 	lua/utils/telescope.lua	277;"	f
+local keymap_set 	lua/core/keymap.lua	73;"	f
+local leader_map 	lua/core/init.lua	46;"	f
+local load_core  	lua/core/init.lua	52;"	f
+local log 	lua/utils/log.lua	4;"	f
+local mod 	lua/modules/ui/windline.lua	608;"	f
+local mode 	lua/modules/ui/windline.lua	224;"	f
+local new_maker 	lua/utils/telescope.lua	337;"	f
+local on_hover 	lua/modules/ui/windline.lua	119;"	f
+local should_show 	lua/modules/ui/windline.lua	165;"	f
+local split 	lua/modules/ui/windline.lua	44;"	f
+local split_path 	lua/modules/ui/windline.lua	63;"	f
+local treesitter 	lua/modules/lang/treesitter.lua	7;"	f
+local treesitter_context 	lua/modules/lang/treesitter.lua	179;"	f
+local treesitter_obj 	lua/modules/lang/treesitter.lua	41;"	f
+local treesitter_ref 	lua/modules/lang/treesitter.lua	100;"	f
+local visual_selection 	lua/utils/telescope.lua	23;"	f
+local width_for_nopreview 	lua/utils/telescope.lua	285;"	f
+local winwidth 	lua/modules/ui/windline.lua	67;"	f
+lsp_keymaps	lua/modules/completion/handlers.lua	48;"	f
+map	lua/core/keymap.lua	88;"	f
+map	lua/modules/tools/gitsigns.lua	24;"	f
+matchadd	plugin/cursorword.lua	18;"	f
+on_attach 	lua/modules/lang/null-ls/init.lua	132;"	f
+on_attach 	lua/modules/tools/gitsigns.lua	21;"	f
+on_exit 	lua/utils/telescope.lua	342;"	f
+opts:new	lua/core/keymap.lua	4;"	f
+peek_definition_code 	lua/modules/lang/treesitter.lua	67;"	f
+plugins.auto_compile	lua/core/pack.lua	113;"	f
+plugins.compile_loader	lua/core/pack.lua	123;"	f
+plugins.compile_notify	lua/core/pack.lua	108;"	f
+plugins.ensure_plugins	lua/core/pack.lua	100;"	f
+plugins.load_compile	lua/core/pack.lua	129;"	f
+plugins.register_plugin	lua/core/pack.lua	104;"	f
+randomscheme	lua/core/lazy.lua	3;"	f
+scrollbar_instance	lua/modules/ui/windline.lua	314;"	f
+setup 	lua/modules/tools/plugins.lua	40;"	f
+size 	lua/modules/tools/floaterm.lua	5;"	f
+split_lines	lua/modules/ui/windline.lua	115;"	f
+text 	lua/modules/ui/windline.lua	254;"	f
+text 	lua/modules/ui/windline.lua	261;"	f
+text 	lua/modules/ui/windline.lua	274;"	f
+text 	lua/modules/ui/windline.lua	352;"	f
+text 	lua/modules/ui/windline.lua	380;"	f
+text 	lua/modules/ui/windline.lua	403;"	f
+text 	lua/modules/ui/windline.lua	417;"	f
+text 	lua/modules/ui/windline.lua	459;"	f
+text 	lua/modules/ui/windline.lua	477;"	f
+text 	lua/modules/ui/windline.lua	492;"	f
+text 	lua/modules/ui/windline.lua	507;"	f
+text 	lua/modules/ui/windline.lua	524;"	f
+textsubjects	lua/modules/lang/treesitter.lua	163;"	f
+timeout_hook 	lua/utils/telescope.lua	376;"	f
+trim_space	plugin/trimwhite.lua	4;"	f
+ui["NLKNguyen/papercolor-theme"] 	lua/modules/ui/plugins.lua	9;"	f
+ui["rose-pine/neovim"] 	lua/modules/ui/plugins.lua	6;"	f
