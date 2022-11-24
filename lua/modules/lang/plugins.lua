@@ -28,4 +28,5 @@ lang["jose-elias-alvarez/null-ls.nvim"] = { opt = true, config = require("module
 lang["mfussenegger/nvim-dap"] = { config = "require('modules.lang.dap')" }
 lang["rcarriga/nvim-dap-ui"] = {}
 lang["theHamsta/nvim-dap-virtual-text"] = {}
+lang["cshuaimin/ssr.nvim"] = { module = "ssr", config = conf.ssr }
 return lang

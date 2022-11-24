@@ -1,4 +1,4 @@
-local api = vim.api
+api = vim.api
 require('keymap.remap')
 local keymap = require('core.keymap')
 local nmap, imap, xmap, tmap = keymap.nmap, keymap.imap, keymap.xmap, keymap.tmap
@@ -12,6 +12,7 @@ imap({
   { '<S-TAB>', _G.smart_shift_tab, opts(expr, remap) },
 })
 nmap({
+  { '<C-p>', cmd('Legendary') },
   -- packer
   { '<Leader>pu', cmd('PackerUpdate') },
   { '<Leader>pi', cmd('PackerInstall') },
@@ -73,6 +74,9 @@ nmap({
   { '<Leader>dj', cmd('lua require"dap".down()') },
   { '<Leader>dsbr', cmd('lua require"dap".set_breakpoint(vim.fn.input("breakpoint condition: "))') },
   { '<Leader>dsbm', cmd('lua require"dap".set_breakpoint(nil, nil, vim.fn.input("Log point message: "))') },
+
+  -- navigator.lua
+  --  {'gr',cmd('require('navigator.reference').async_ref')},
 
 })
 

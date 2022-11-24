@@ -1,5 +1,6 @@
 require 'navigator'.setup({
   border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+  default_mapping = false,
   keymaps = {
     { key = "gK", func = vim.lsp.declaration, desc = 'declaration' },
     -- { key = '<leader>ld', func = "require('navigator.diagnostics').show_buf_diagnostics", doc = 'show_buf_diagnostics' },

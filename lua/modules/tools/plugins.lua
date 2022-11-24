@@ -1,6 +1,12 @@
 local tools = {}
 local conf = require('modules.tools.config')
 
+
+tools["mrjones2014/legendary.nvim"] = {
+  requires = "dressing.nvim",
+  config = "require('modules.tools.legendary')",
+}
+
 tools["nvim-telescope/telescope.nvim"] = {
   cmd = 'Telescope',
   config = "require('modules.tools.telescope')",
@@ -63,6 +69,7 @@ tools["tpope/vim-fugitive"] = {
 }
 
 -- tools["rmagatti/auto-session"] = { config = conf.session }
+tools["Shatur/neovim-session-manager"] = { config = conf.session }
 
 tools["rmagatti/session-lens"] = {
   opt = true,

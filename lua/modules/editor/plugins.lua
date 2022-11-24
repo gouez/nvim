@@ -12,13 +12,6 @@ editor["windwp/nvim-autopairs"] = {
   opt = true,
 }
 
-editor["anuvyklack/hydra.nvim"] = {
-  requires = "anuvyklack/keymap-layer.nvim",
-  config = function()
-    require("modules.editor.hydra")
-  end,
-  opt = true,
-}
 editor["NvChad/nvim-colorizer.lua"] = {
   config = function()
     require 'colorizer'.setup()
