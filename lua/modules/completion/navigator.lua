@@ -26,7 +26,7 @@ require 'navigator'.setup({
       update_in_insert = false, -- update diagnostic message in insert mode
     },
     diagnostic_scrollbar_sign = { '▃', '▆', '█' },
-    disply_diagnostic_qf = true,
+    disply_diagnostic_qf = false,
     diagnostic_virtual_text = false,
   }
 })
