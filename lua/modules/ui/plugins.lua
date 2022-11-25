@@ -62,5 +62,10 @@ ui["gorbit99/codewindow.nvim"] = {
     vim.cmd('command! -nargs=0 Minimap :lua require("codewindow").toggle_minimap()')
   end,
 }
+ui["folke/noice.nvim"] = {
+  opt = true,
+  module = "noice",
+  config = conf.noice,
+}
 
 return ui
