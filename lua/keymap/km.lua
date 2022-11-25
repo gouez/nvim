@@ -21,7 +21,7 @@ return {
       }
     },
     { '<Space>rn', ':lua require("navigator.rename").rename()<CR>', description = 'rename' },
-    { '<Leader>gi', ':lua im.lsp.buf.incoming_calls()<CR>', description = 'incoming calls' },
+    { '<Leader>gi', ':lua vim.lsp.buf.incoming_calls()<CR>', description = 'incoming calls' },
     { '<Leader>go', ':lua vim.lsp.buf.outgoing_calls()<CR>', description = 'outgoing calls' },
     { 'gi', ':lua vim.lsp.buf.implementation()<CR>', description = 'implementation' },
     { 'gL', ':lua require("navigator.diagnostics").show_diagnostics()<CR>', description = 'show diagnostics' },
@@ -63,7 +63,8 @@ return {
     { ':TodoQuickFix', description = ':TodoQuickFix' },
     { ':TodoLocList', description = 'TodoLocList' },
     { ':TodoTelescope', description = 'TodoTelescope' },
-
+    -- tree
+    { ':Neotree source=filesystem reveal=true', description = 'reveal file' },
   },
   functions = {
 

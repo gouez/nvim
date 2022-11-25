@@ -1,4 +1,7 @@
 require 'navigator'.setup({
+  width = 0.75, -- max width ratio (number of cols for the floating window) / (window width)
+  height = 0.3, -- max list window height, 0.3 by default
+  -- preview_height = 0.35, -- max height of preview windows
   border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
   default_mapping = false,
   keymaps = {
@@ -7,9 +10,8 @@ require 'navigator'.setup({
 
   },
   icons = {
-    -- Code action
+    -- Code acion
     code_action_icon = "🏏", -- note: need terminal support, for those not support unicode, might crash
-    -- Diagnostics
     diagnostic_head = '🐛',
     diagnostic_head_severity_1 = "🈲",
     -- refer to lua/navigator.lua for more icons setups

@@ -1,7 +1,6 @@
 local completion = {}
 local conf = require('modules.completion.config')
 
-
 completion["williamboman/mason.nvim"] = {
   config = conf.mason,
   requires = {

@@ -17,6 +17,9 @@ vim.cmd("colorscheme gruvbox-material")
 vim.cmd("doautocmd ColorScheme")
 
 
-vim.cmd('hi FloatBorder   ctermfg=142 guifg=#e78a4e guibg=#1E2021')
-vim.cmd('hi NormalFloat   ctermfg=223 ctermbg=237 guifg=#ddc7a1 guibg=none')
-vim.cmd('hi NeoTreeDirectoryIcon  ctermfg=208 guifg=#e78a4e')
+vim.cmd('hi Normal guibg=black')
+vim.cmd('hi EndOfBuffer guibg=black')
+vim.cmd('hi FloatBorder   guibg=black')
+vim.cmd('hi NormalFloat   guibg=black')
+vim.cmd('hi NeoTreeDirectoryIcon  guifg=#e78a4e')
+vim.cmd('hi PmenuSel guibg=none')
