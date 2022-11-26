@@ -63,3 +63,4 @@ local cmp = require("cmp")
 cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done({ map_char = { tex = "" } }))
 -- print("autopairs setup")
 -- skip it, if you use another global object
+

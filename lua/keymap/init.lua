@@ -5,14 +5,14 @@ local nmap, imap, xmap, tmap = keymap.nmap, keymap.imap, keymap.xmap, keymap.tma
 local expr, remap = keymap.expr, keymap.remap
 local opts = keymap.new_opts
 local cmd = keymap.cmd
-require('keymap.config')
-imap({
-  -- tab key
-  { '<TAB>', _G.smart_tab, opts(expr, remap) },
-  { '<S-TAB>', _G.smart_shift_tab, opts(expr, remap) },
-})
+-- -- require('keymap.config')
+-- imap({
+--   -- tab key
+--   { '<TAB>', _G.smart_tab, opts(expr, remap) },
+--   { '<S-TAB>', _G.smart_shift_tab, opts(expr, remap) },
+-- })
 nmap({
-  { '<C-p>', cmd('Legendary') },
+  { '<leader>p', cmd('Legendary') },
   -- packer
   { '<Leader>pu', cmd('PackerUpdate') },
   { '<Leader>pi', cmd('PackerInstall') },
@@ -45,7 +45,7 @@ nmap({
   { '<Leader>fa', cmd('Telescope live_grep') },
   { '<Leader>fs', cmd('Telescope grep_string') },
   {
-    '<Leader>1',
+    '<A-b>',
     function()
       vim.cmd('Neotree toggle')
       local esc_key = api.nvim_replace_termcodes('<Esc>', true, false, true)
@@ -54,7 +54,7 @@ nmap({
   },
   { '<Leader>3', cmd('SymbolsOutline') },
   { '<Leader>2', cmd('Neotree buffers position=float') },
-  { '<Leader>ff', cmd('Telescope find_files find_command=rg,--ignore,--hidden,--files') },
+  { '<A-p>', cmd('Telescope find_files find_command=rg,--ignore,--hidden,--files') },
   { '<Leader>fg', cmd('Telescope git_files') },
   { '<Leader>fw', cmd('Telescope grep_string') },
   { '<Leader>fh', cmd('Telescope help_tags') },

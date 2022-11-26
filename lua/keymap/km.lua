@@ -1,6 +1,5 @@
 return {
   keymaps = {
-    { '<leader>ff', ':Telescope find_files<CR>', description = 'Find files', opts = { silent = true } },
     { '<leader>h', function() print('hello world!') end, description = 'Say hello' },
     { '<leader>s', ':SomeCommand<CR>', description = 'Non-silent keymap', opts = { silent = false } },
     {
