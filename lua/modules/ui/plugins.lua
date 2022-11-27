@@ -6,14 +6,17 @@ ui["kyazdani42/nvim-web-devicons"] = {}
 ui["rose-pine/neovim"] = { opt = true, config = function()
   vim.cmd([[colorscheme  rose-pine]])
 end }
-ui["NLKNguyen/papercolor-theme"] = { opt = true, config = function()
-
-  vim.cmd([[colorscheme  papercolor]])
-  vim.cmd('hi VertSplit  guifg=#444444   guibg=none gui=none')
-end }
+ui["NLKNguyen/papercolor-theme"] = {
+  opt = true,
+  config = function()
+    vim.cmd([[colorscheme  PaperColor]])
+    vim.cmd('hi VertSplit  guifg=#444444   guibg=none gui=none')
+  end
+}
 ui["sainnhe/gruvbox-material"] = { opt = true, config = "require('modules.ui.gruvbox')" }
 ui["EdenEast/nightfox.nvim"] = { opt = true, config = conf.nightfox }
 ui["ray-x/aurora"] = { opt = true, config = conf.aurora }
+ui["catppuccin/nvim"] = { opt = true }
 
 ui["goolord/alpha-nvim"] = {
   requires = { 'kyazdani42/nvim-web-devicons' },

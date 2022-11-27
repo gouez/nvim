@@ -45,7 +45,7 @@ nmap({
   { '<Leader>fa', cmd('Telescope live_grep') },
   { '<Leader>fs', cmd('Telescope grep_string') },
   {
-    '<A-b>',
+    '<Leader>1',
     function()
       vim.cmd('Neotree toggle')
       local esc_key = api.nvim_replace_termcodes('<Esc>', true, false, true)
@@ -54,7 +54,7 @@ nmap({
   },
   { '<Leader>3', cmd('SymbolsOutline') },
   { '<Leader>2', cmd('Neotree buffers position=float') },
-  { '<A-p>', cmd('Telescope find_files find_command=rg,--ignore,--hidden,--files') },
+  { '<Leader>ff', cmd('Telescope find_files find_command=rg,--ignore,--hidden,--files') },
   { '<Leader>fg', cmd('Telescope git_files') },
   { '<Leader>fw', cmd('Telescope grep_string') },
   { '<Leader>fh', cmd('Telescope help_tags') },

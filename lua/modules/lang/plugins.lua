@@ -36,4 +36,10 @@ lang["CRAG666/code_runner.nvim"] = {
   requires = 'nvim-lua/plenary.nvim',
   config = "require('modules.lang.code-runner')"
 }
+lang["sakhnik/nvim-gdb"] = {
+  opt = true,
+  run = "./install.sh",
+  cmd = { "GdbStart", "GdbStartLLDB" },
+  config = "require('modules.lang.gdb')"
+}
 return lang
