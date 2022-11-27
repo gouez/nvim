@@ -1,7 +1,7 @@
 if not packer_plugins["nvim-web-devicons"].loaded then
-    packer_plugins["nvim-web-devicons"].loaded = true
-    require("packer").loader("nvim-web-devicons")
-  end
+  packer_plugins["nvim-web-devicons"].loaded = true
+  require("packer").loader("nvim-web-devicons")
+end
 
 local windline = require("windline")
 local fn = vim.fn
@@ -579,7 +579,7 @@ local default = {
     basic.file,
     basic.lsp_diagnos,
     basic.lsp_info,
---    basic.funcname,
+    basic.funcname,
     basic.divider, -- {sep.slant_right,{'black_light', 'green_light'}},
     { sep.slant_right, { "green_light", "blue_light" } },
     basic.file_right,

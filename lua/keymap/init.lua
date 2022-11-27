@@ -39,7 +39,7 @@ nmap({
   { '<Leader>ss', cmd('SessionSave') },
   { '<Leader>sl', cmd('SessionLoad') },
   -- dadbodui
-  { '<Leader>d', cmd('DBUIToggle') },
+  -- { '<Leader>d', cmd('DBUIToggle') },
   -- Telescope
   { '<Leader>j', cmd('Telescope buffers') },
   { '<Leader>fa', cmd('Telescope live_grep') },

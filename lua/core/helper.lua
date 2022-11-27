@@ -24,4 +24,16 @@ function helper.get_cache_path()
   end
 end
 
+-- file exist?
+function helper.exists(file)
+   local ok, err, code = os.rename(file, file)
+  if not ok then
+    if code == 13 then
+      -- Permission denied, but it exists
+      return true
+    end
+  end
+  return ok, err
+end
+
 return helper
