@@ -39,7 +39,7 @@ lang["CRAG666/code_runner.nvim"] = {
 lang["sakhnik/nvim-gdb"] = {
   opt = true,
   run = "./install.sh",
-  cmd = { "GdbStart", "GdbStartLLDB" },
+  cmd = { "GdbStart", "GdbStartLLDB", },
   config = "require('modules.lang.gdb')"
 }
 return lang

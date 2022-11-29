@@ -32,6 +32,11 @@ return {
     { 'K', ':lua vim.lsp.buf.hover()<CR>', description = 'hover' },
     { ']r', ':lua require("navigator.treesitter").goto_next_usage()<CR>', description = 'goto next usage' },
     { '[r', ':lua require("navigator.treesitter").goto_previous_usage()<CR>', description = 'goto previous usage' },
+
+    -- terminal
+    { '<leader>th', ':ToggleTerm direction=horizontal<CR>', description = 'terminal horizontal' },
+    { '<leader>tl', ':ToggleTerm direction=vertical<CR>', description = 'terminal vertical' },
+    { '<leader>tf', ':ToggleTerm direction=float<CR>', description = 'terminal float' },
   },
   commands = {
     -- packer
