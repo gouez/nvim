@@ -42,4 +42,8 @@ lang["sakhnik/nvim-gdb"] = {
   cmd = { "GdbStart", "GdbStartLLDB", },
   config = "require('modules.lang.gdb')"
 }
+lang["mfussenegger/nvim-jdtls"] = {
+  opt = true,
+  ft = { "java" },
+}
 return lang
