@@ -5,7 +5,7 @@ if not jdtls_ok then
 end
 
 -- Installation location of jdtls by nvim-lsp-installer
-local JDTLS_LOCATION = vim.fn.stdpath "data" .. "/lsp_servers/jdtls"
+local JDTLS_LOCATION = vim.fn.stdpath "data" .. "/mason/packages/jdtls"
 
 -- Data directory - change it to your liking
 local HOME = os.getenv "HOME"
@@ -151,10 +151,9 @@ vim.bo.tabstop = 2
 
 require('legendary').commands({
   -- your commands here
-  {':lua require("jdtls").organize_imports()<cr>',description = 'Java Organize Imports'},
-  {':lua require("jdtls").extract_variable()<cr>',description = 'Java Extract Variable'},
-  {':lua require("jdtls").extract_constant()<cr>',description = 'Java Extract Constant'},
-  {':lua require("jdtls").test_class()<cr>',description = 'Java Test Class'},
-  {':lua require("jdtls").test_nearest_method()<cr>',description = 'Java Test Nearest Method'},
+  { ':lua require("jdtls").organize_imports()<cr>', description = 'Java Organize Imports' },
+  { ':lua require("jdtls").extract_variable()<cr>', description = 'Java Extract Variable' },
+  { ':lua require("jdtls").extract_constant()<cr>', description = 'Java Extract Constant' },
+  { ':lua require("jdtls").test_class()<cr>', description = 'Java Test Class' },
+  { ':lua require("jdtls").test_nearest_method()<cr>', description = 'Java Test Nearest Method' },
 })
-
