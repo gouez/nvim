@@ -8,7 +8,7 @@ return {
       description = 'Toggle comment'
     },
     -- lsp
-    { 'gr', ':lua require("navigator.reference").async_ref()<CR>', description = 'async ref' },
+    { 'gr', ':lua require("navigator.reference").async_ref()<CR>', description = 'async ref', opts = { silent = false } },
     { 'g0', ':lua require("navigator.symbols").document_symbols()<CR>', description = 'document symbols' },
     { 'gW', ':lua require("navigator.workspace").workspace_symbol_live()<CR>', description = 'workspace symbol live' },
     { 'gd', ':lua require("navigator.definition").definition()<CR>', description = 'definition' },
