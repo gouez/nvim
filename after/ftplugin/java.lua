@@ -78,6 +78,16 @@ local config = {
       references = {
         includeDecompiledSources = true,
       },
+      -- runtimes = {
+      --   {
+      --     name = "jdk8",
+      --     path = "/usr/lib/jvm/java-8-openjdk/",
+      --   },
+      --   {
+      --     name = "jdk17",
+      --     path = "/usr/lib/jvm/java-17-openjdk/",
+      --   },
+      -- },
       format = {
         enabled = true,
         settings = {
