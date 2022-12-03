@@ -48,16 +48,16 @@ return {
     { ':LspLog', description = 'Lsp Log' },
     { ':LspRestart', description = 'Lsp Restart' },
     -- telescope
-    { ':Telescope keymaps', description = 'Show keymaps' },
-    { ':Telescope vim_options', description = 'Telescope vim_options' },
-    { ':Telescope lsp_dynamic_workspace_symbols', description = 'lsp_dynamic_workspace_symbol' },
-    { ':Telescope lsp_document_symbols', description = 'lsp_document_symbols' },
-    { ':Telescope commands', description = 'Lists available plugin/user commands' },
-    { ':Telescope help_tags', description = 'help_tags' },
-    { ':Telescope colorscheme', description = 'colorscheme' },
+    -- { ':Telescope keymaps', description = 'Show keymaps' },
+    -- { ':Telescope vim_options', description = 'Telescope vim_options' },
+    -- { ':Telescope lsp_dynamic_workspace_symbols', description = 'lsp_dynamic_workspace_symbol' },
+    -- { ':Telescope lsp_document_symbols', description = 'lsp_document_symbols' },
+    -- { ':Telescope commands', description = 'Lists available plugin/user commands' },
+    -- { ':Telescope help_tags', description = 'help_tags' },
+    -- { ':Telescope colorscheme', description = 'colorscheme' },
     -- search/replace
-    { ':lua require("spectre").open_visual({select_word=true})', description = 'search current word' },
-    { ':lua lua require("spectre").open_file_search()', description = 'search in current file' },
+    -- { ':lua require("spectre").open_visual({select_word=true})', description = 'search current word' },
+    -- { ':lua lua require("spectre").open_file_search()', description = 'search in current file' },
     -- Code Runner
     { ':RunFile', description = 'Run the current file' },
     --- terminal
@@ -68,7 +68,7 @@ return {
     { ':TodoLocList', description = 'TodoLocList' },
     { ':TodoTelescope', description = 'TodoTelescope' },
     -- tree
-    { ':Neotree source=filesystem reveal=true', description = 'reveal file' },
+    -- { ':Neotree source=filesystem reveal=true', description = 'reveal file' },
   },
   functions = {
 

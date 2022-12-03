@@ -12,7 +12,7 @@ local cmd = keymap.cmd
 --   { '<S-TAB>', _G.smart_shift_tab, opts(expr, remap) },
 -- })
 nmap({
-  { '<leader>p', cmd('Legendary') },
+  { '<C-p>', cmd('Legendary') },
   -- packer
   { '<Leader>pu', cmd('PackerUpdate') },
   { '<Leader>pi', cmd('PackerInstall') },
